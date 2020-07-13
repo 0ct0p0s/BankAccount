@@ -9,9 +9,9 @@ namespace BankAccount
 
         public Transaction(decimal amount, DateTime date, string note)
         {
-            this.Amount = amount;
-            this.Date = date;
-            this.Notes = note;
+            Amount = amount;
+            Date = date;
+            Notes = note;
         }
     }
 }
